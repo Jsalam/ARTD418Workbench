@@ -1,0 +1,46 @@
+
+
+body{
+	width: 100%; 
+	margin: 0;
+	font-family: Helvetica, sans-serif; 
+	}
+
+header{
+	position: fixed; 
+	width: 100%;
+	}
+
+header h1{ 
+	text-align: center;
+	font-size: 3em; 
+	text-transform: uppercase;
+	letter-spacing: .1em;
+  margin-bottom: 0;
+	}
+
+ h2{
+    font-size: 1em;
+    text-align: center;
+  }
+
+section{
+	width: 100%; 
+	height: 350px; 
+	background-position: center center; 
+	background-attachment: fixed; 
+	background-repeat: repeat;
+}
+	
+#a1{background-color: #FF00CC; height: 1300px;}
+#a1a{background-color: #15F2D0; background-image: url(http://farm4.staticflickr.com/3694/10579547726_8a87f9b6e7_o.png);}
+#a1b{background-color: #15F2D0; background-image: url(http://farm8.staticflickr.com/7391/10579565794_aa481639ea_o.png);}
+#a1c{background-color: #15F2D0; background-image: url(http://farm6.staticflickr.com/5544/10579786703_10a808c450_o.png);}
+#a2{background-color: #55CCDD; height: 1300px;}
+#a2a{background-color: #6ABFE1; background-image: url(http://farm3.staticflickr.com/2857/10579786573_7c5caae44e_o.png);}
+#a2b{background-color: #7FB2E5; background-image: url(http://farm6.staticflickr.com/5491/10579786543_752d8c0f27_o.png);}
+#a2c{background-color: #94A5E9; background-image: url(http://farm8.staticflickr.com/7438/10579547426_4fa15333ce_o.png);}
+#a3{background-color: #AA99EE; height: 1300px;}
+#a3a{background-color: #BF8CF2; background-image: url(http://farm4.staticflickr.com/3788/10579786423_ca263fffb9_o.png);}
+#a3b{background-color: #D47FF6; background-image: url(http://farm8.staticflickr.com/7297/10579547386_807dd3c4dc_o.png);}
+#a3c{background-color: #E972FA; background-image: url(http://farm3.staticflickr.com/2862/10579547366_5719e36d01_o.png);}

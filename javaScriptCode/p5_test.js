@@ -1,7 +1,7 @@
 function setup(){
 
 // retrieve all the SVG paths in the html
-var pathEls = document.querySelectorAll('path');
+var pathEls = document.querySelectorAll('line');
 	for (var i = 0; i < pathEls.length; i++) {
 	  
 	  // for each path
@@ -20,7 +20,7 @@ var pathEls = document.querySelectorAll('path');
 	    duration: anime.random(1000, 3000),
 	    delay: anime.random(0, 2000),
 	    loop: true,
-	    direction: 'alternate',
+	    direction: 'reverse',
 	    easing: 'easeInOutSine',
 	    autoplay: true
 	  });
